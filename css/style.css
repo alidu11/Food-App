@@ -78,6 +78,15 @@ h3{
 }
 
 /* come back here later */
+.float-container{
+    position: relative;
+}
+
+.float-text{
+    position: absolute;
+    bottom: 50px;
+    left: 40%;
+}
 
 .logo{
     width: 15%;
