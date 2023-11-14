@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/order-style.css">
+    <title>Order Page</title>
+</head>
+<body>
+     <!-- navbar section starts -->
+     <section class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="#"><img src="./images/My_Logo.png" alt="" class="img-responsive"></a>
+            </div>
+
+            <div class="menu text-right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="categories.html">Categories</a></li>
+                    <li><a href="foods.html">Foods</a></li>
+                    <li><a href="order.html">Order</a></li>
+                </ul>
+            </div>
+
+            <div class="clearfix"></div>
+        </div>
+    </section>
+     <!-- navbar section ends -->
+
+     <section class="food-search">
+        <div class="container">
+            <h2 class="text-center text-white">
+              Fill this form to confirm your order 
+            </h2>
+
+            <form action="#" class="order">
+                <fieldset>
+                    <legend>Selected Food</legend>
+                    <div class="food-menu-img">
+                        <img src="./images/beef_grill.jpeg" alt="" class="img-responsive">
+                    </div>
+
+                    <div class="food-menu-desc">
+                        <h3>Food Title</h3>
+                        <p class="food-price">GH¢ 60.77</p>
+                        <div class="order-label">
+                            Quantity
+                            <input
+                             type="number"
+                             name="qty" 
+                             class="input-responsive" 
+                             value="1" 
+                             required />
+                        </div>
+                    </div>
+                </fieldset>
+
+                <fieldset class="Delivery">
+                    <legend>Delivery Details</legend>
+                    <label for="" class="order-label">Full name</label>
+                    <input type="text" name="full-name" placeholder="mohammed">
+                    <br>
+                    <label for="" class="order-label">Phone number</label>
+                    <input type="text" name="contact" placeholder="+233......">
+                    <br>
+                    <label for="" class="order-label">Email</label>
+                    <input type="text" name="email" placeholder="me@email.com">
+                    <br>
+                    <label for="" class="-order-label">Address</label>
+                    <textarea name="Address" cols="30" rows="10"></textarea>
+                    <br>
+                    <input type="submit" value="Confirm Order" class="btn btn-primary">
+                </fieldset>
+            </form>
+        </div>
+     </section>
+</body>
+</html>

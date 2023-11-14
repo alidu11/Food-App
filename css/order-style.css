@@ -1,0 +1,33 @@
+fieldset{
+    border: 1px solid rgb(29, 28, 28);
+    border-radius: 5%;
+    padding: 2%;
+    margin: 2% 27%;
+    width: 45%;
+    background-color: rgb(229, 229, 221);
+}
+
+img{
+    border-radius: 5%;
+}
+
+.food-search{
+    background-image: url(../images/back-ground\ order.jpeg);
+}
+
+.Delivery{
+    display: grid;   
+}
+
+.Delivery input{
+    width: 70%;
+}
+
+input.btn.btn-primary{
+    width: 30%;
+    margin-left: 35%;
+}
+
+
+
+
